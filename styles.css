@@ -1,0 +1,167 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+.content-header {
+    margin: 0;
+    background-color: #111;
+    padding:13px;
+}
+
+.content-header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.content-header li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #DC143C;
+    border-radius: 20px;
+    padding: 5px 5px; 
+} 
+
+.profile-pic h1, h2 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #401c4f;
+}
+
+.profile-card {
+    background: black;
+    width: 240px;
+    height: 450px;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.profile-pic img {
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px #DC143C;
+}
+
+.sobre {
+    background-color: #111;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+.sobre h1 {
+    color: white;
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+.sobre h1::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -50%;
+    width: 45%;
+    height: 3px;
+    background: linear-gradient(45deg, #f64c57, #e21b5a);
+}
+
+.sobre p {
+    color: #555;
+    margin: 1.5rem 0;
+    font-size: large;
+}
+
+.Habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    padding-left: 40px;
+}
+
+
+.Habilidades h1 {
+    background-color: white;
+    color: #DC143C;
+    letter-spacing: 7px;
+}
+
+.projeto {
+    background-color: #401c4f;
+    height: 500px;
+    text-align: center;
+    font-size: large;
+}
+
+.projeto h1   {
+        background-color: #DC143C;
+        color: white;
+    }
+
+.cards {
+    display: inline-grid;      
+    grid-template-columns: repeat(2, 0.9fr);     
+    grid-gap: 30px 10px;
+    }
+
+.cards h1 {
+        background-color: #DC143C;
+        color: white;
+        border-radius: 60px;
+        padding-left: 3px;
+    }
+
+.card {
+    width: 300px;
+    height: 295px;
+    background-color: #111;
+    border-radius: 45px;
+    margin: 50px;
+}
+
+.card p {
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 5%;
+    margin: 25px 25px;
+    }
+            
+
+.content-footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: black;
+    color: #DC143C
+}
+
+
+
